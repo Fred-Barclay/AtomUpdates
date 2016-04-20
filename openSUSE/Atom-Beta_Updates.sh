@@ -32,11 +32,11 @@
 #   distribution page. In your documentation, you must credit the ABU authors
 #   for the portions of their code you have used. This, of course, does not
 #   revoke or change your right to claim original authorship to any portions of
-#       the code that you have written.
+#   the code that you have written.
 #
 #   You must agree to assume all liability for your use of the program, and to
 #   indemnify and hold harmless the ABU authors from any liability arising from
-#       use of this program, including, but not limited to: loss of data, death,
+#   use of this program, including, but not limited to: loss of data, death,
 #   dismemberment, or injury, and all consequential and inconsequential damages.
 #
 #   For clarification, contact Fred Barclay:
