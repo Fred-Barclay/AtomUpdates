@@ -23,25 +23,25 @@
 #
 # Custom license terms:
 #   You are hereby granted a perpetual, irrevocable license to copy, modify,
-#	publish, release, and distribute this program as you see fit. However,
-#	under no circumstances may you claim original authorship of this code; you
-#	must credit the ABU authors. If you release the source code, whether
+#   publish, release, and distribute this program as you see fit. However,
+#   under no circumstances may you claim original authorship of this code; you
+#   must credit the ABU authors. If you release the source code, whether
 #   modified or original, you may not remove the ABU authors as the original
-#	authors, though you may change the licensing terms. If you release binaries
-#	or similarly compiled files, you must credit the ABU authors on your home or
+#   authors, though you may change the licensing terms. If you release binaries
+#   or similarly compiled files, you must credit the ABU authors on your home or
 #   distribution page. In your documentation, you must credit the ABU authors
 #   for the portions of their code you have used. This, of course, does not
 #   revoke or change your right to claim original authorship to any portions of
-#   the code that you have written.
+#       the code that you have written.
 #
-#	You must agree to assume all liability for your use of the program, and to
-#	indemnify and hold harmless the ABU authors from any liability arising from
-#   use of this program, including, but not limited to: loss of data, death,
+#   You must agree to assume all liability for your use of the program, and to
+#   indemnify and hold harmless the ABU authors from any liability arising from
+#       use of this program, including, but not limited to: loss of data, death,
 #   dismemberment, or injury, and all consequential and inconsequential damages.
 #
 #   For clarification, contact Fred Barclay:
-#		https://github.com/Fred-Barclay
-#		BugsAteFred@gmail.com
+#       https://github.com/Fred-Barclay
+#       BugsAteFred@gmail.com
 #
 
 if [ $EUID != 0 ]; then
@@ -76,7 +76,7 @@ else
         echo ' => Downloading ${github_server}${last_release}'
 		wget "${github_server}/${last_release}" -O atom-beta.x86_64.rpm
         echo 'Download complete!'
-	 	zypper install atom.x86_64.rpm
+	 	zypper install atom-beta.x86_64.rpm
     fi
 	cd ..
 	rm -rf temp-atom-dir
