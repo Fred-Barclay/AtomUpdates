@@ -14,8 +14,8 @@ your prompting, download and install the latest version.
 
 # Licensing:
 The scripts hosted in this repository are provided under a dual-license model:    
-(a). GPL v2 or, (at your option) any later version
-(b). Custom, highly-permissive licensing terms
+(a). GPL v2 or, (at your option) any later version.    
+(b). Custom, highly-permissive licensing terms.
 
 A copy of the GPL v2 is found in the GPLv2_LICENSE file, and a copy of the
 custom licensing terms is found in the LICENSE file, as well as in the code
