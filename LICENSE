@@ -1,21 +1,21 @@
-PolyDist.py is dual-licensed under the GPL v2 and the following terms:
+
+Atom-Beta_Updates.sh is dual-licensed under the GPL v2 and the following terms:
 	You are hereby granted a perpetual, irrevocable license to copy, modify,
 	publish, release, and distribute this program as you see fit. However,
 	under no circumstances may you claim original authorship of this code; you
-	must credit Fred Barclay. If you release the source code, whether modified
-	or original, you may not remove Fred Barclay as the original author, though
-	you may change the licensing terms. If you release binaries or similarly
-	compiled files, you must credit Fred Barclay on your home or distribution
-	page. In your documentation, you must credit Fred Barclay for the portions
-	of his code you have used. This, of course, does not revoke or change your
-	right to claim original authorship to any portions of the code that you have
-	written.
+	must credit the ABU authors. If you release the source code, whether
+	modified or original, you may not remove the ABU authors as the original
+	authors, though you may change the licensing terms. If you release binaries
+	or similarly compiled files, you must credit the ABU authors on your home or
+	distribution page. In your documentation, you must credit the ABU authors
+	for the portions of their code you have used. This, of course, does not
+	revoke or change your right to claim original authorship to any portions of
+	the code that you have written.
 
 	You must agree to assume all liability for your use of the program, and to
-	indemnify and hold harmless the author of this program, known as Fred
-	Barclay, from any liability arising from use of this program, including, but
-	not limited to: loss of data, death, dismemberment, or injury, and
-	all consequential and inconsequential damages.
+	indemnify and hold harmless the ABU authors from any liability arising from
+	use of this program, including, but not limited to: loss of data, death,
+	dismemberment, or injury, and all consequential and inconsequential damages.
 
 	For clarification, contact Fred Barclay:
 		https://github.com/Fred-Barclay
