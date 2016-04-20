@@ -13,7 +13,7 @@ will automatically terminate. If you have an outdated version, the script, at
 your prompting, download and install the latest version.
 
 # Licensing:
-The scripts hosted in this repository are provided under a dual-license model:
+The scripts hosted in this repository are provided under a dual-license model:    
 (a). GPL v2 or, (at your option) any later version
 (b). Custom, highly-permissive licensing terms
 
