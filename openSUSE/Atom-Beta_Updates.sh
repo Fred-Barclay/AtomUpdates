@@ -1,5 +1,6 @@
 #!/bin/bash
 # Atom-Beta_Updates.sh (ABU) -- Intelligent update script for Atom Beta.
+# openSUSE VERSION.
 # Copyright (C) 2016 ABU authors:
 # nihilismus (https://github.com/nihilismus) <hba.nihilismus@gmail.com>
 # Fred Barclay (https://github.com/Fred-Barclay) <BugsAteFred@gmail.com>
@@ -49,37 +50,34 @@ if [ $EUID != 0 ]; then
 fi
 github_server="https://github.com"
 github_releases="https://github.com/atom/atom/releases"
-mkdir temp-atom-dir
-cd temp-atom-dir
-echo -e 'Created by Atom-Beta_Updates.sh' >> whoami.txt
-last_release=$(wget -o /dev/null -O - ${github_releases} | \
-	grep -E '.*releases.*download.*beta.*amd64.deb.*' | \
-    sed 's/^.*ref="//' | \
-	sed 's/amd64.deb.*$/amd64.deb/' | \
-	grep -E 'atom-amd64.deb$' | \
-	head -1)
+last_release="$(wget -o /dev/null -O - ${github_releases} | \
+	grep -E '.*releases.*download.*beta.*x86_64.rpm.*' | \
+	sed 's/^.*ref="//' | \
+	sed 's/x86_64.rpm.*$/x86_64.rpm/' | \
+	grep -E 'atom.x86_64.rpm$' | \
+	head -1 )"
 
 last_release_pretty=$(echo $last_release | cut -c 31-41)
 local_version=$(atom-beta --version | grep -E beta | cut -c 11-21)
 
 if [ $last_release_pretty = $local_version ]; then
     echo 'Congratulations! You have the latest version!'
-    cd ..
-    rm -rf temp-atom-dir
     exit
 else
     echo Latest version is $last_release_pretty
     echo -e You have $local_version
     echo
-    read -p 'Upgrade to the latest version now? [Y\n] ' up
-    if [ $up == n ]; then echo "Terminating!"; fi
-    if [ $up == N ]; then echo "Terminating!"; fi
-    if [ $up == Y ]; then
+    read -p 'Upgrade to the latest version now? [y/N] ' up
+    if [ $up != y ]; then echo "Terminating!"; fi
+    if [ $up == y ]; then
+        mkdir temp-atom-dir
+        cd temp-atom-dir
+        echo -e 'Created by Atom-Beta_Updates.sh' >> whoami.txt
         echo ' => Downloading ${github_server}${last_release}'
-        wget "${github_server}/${last_release}" -O atom-beta-amd64.deb
+		wget "${github_server}/${last_release}" -O atom-beta.x86_64.rpm
         echo 'Download complete!'
-        dpkg -i atom-beta-amd64.deb
+	 	zypper install atom.x86_64.rpm
     fi
-    cd ..
-    rm -rf temp-atom-dir
+	cd ..
+	rm -rf temp-atom-dir
 fi
