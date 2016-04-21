@@ -47,8 +47,8 @@
 #
 
 if [ $EUID != 0 ]; then
-    sudo "$0" "$@"
-    exit $?
+	sudo "$0" "$@"
+	exit $?
 fi
 github_server="https://github.com"
 github_releases="https://github.com/atom/atom/releases"
