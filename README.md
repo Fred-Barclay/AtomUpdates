@@ -12,17 +12,17 @@ Currently, only Atom Beta is updated. We will soon add a script for updating
 Atom Stable as well.
 
 #Supported Linux Distros:
-###Debian
+**Debian**
 Debian  
 Ubuntu  
 Linux Mint  
 LMDE  
 
-###Red Hat
+**Red Hat**
 Fedora  
 CentOS  
 
-###Others
+**Others**
 openSUSE
 
 If you don't see your distro listed here, but it uses either dpkg/apt
