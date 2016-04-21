@@ -12,14 +12,14 @@ Currently, only Atom Beta is updated. We will soon add a script for updating
 Atom Stable as well.
 
 #Supported Linux Distros:
-###Debian			###Red Hat			###Others
-Debian				Fedora				openSUSE
+###Debian			Red Hat			Others
+Debian				Fedora			openSUSE
 Ubuntu				CentOS
 Linux Mint
 LMDE
 
-If you don't see your distro listed here, but it uses either dpkg/apt,
-rpm/yum/dnf/zypper, chances are it's supported too!  
+If you don't see your distro listed here, but it uses either dpkg/apt
+or rpm/yum/dnf/zypper, chances are it's supported too!  
 
 The precompiled Atom binaries are only for 64-bit distros. If you only have a
 32-bit machine, you should either compile the source code yourself or look for a
