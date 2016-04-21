@@ -54,7 +54,7 @@ github_server="https://github.com"
 github_releases="https://github.com/atom/atom/releases"
 last_release=$(wget -o /dev/null -O - ${github_releases} | \
 	grep -E '.*releases.*download.*beta.*amd64.deb.*' | \
-    sed 's/^.*ref="//' | \
+	sed 's/^.*ref="//' | \
 	sed 's/amd64.deb.*$/amd64.deb/' | \
 	grep -E 'atom-amd64.deb$' | \
 	head -1)
