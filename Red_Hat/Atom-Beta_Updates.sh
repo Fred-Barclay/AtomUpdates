@@ -1,6 +1,6 @@
 #!/bin/bash
 # Atom-Beta_Updates.sh (ABU) -- Intelligent update script for Atom Beta.
-# openSUSE VERSION.
+# RED HAT VERSION.
 # Copyright (C) 2016 ABU authors:
 # nihilismus (https://github.com/nihilismus) <hba.nihilismus@gmail.com>
 # Fred Barclay (https://github.com/Fred-Barclay) <BugsAteFred@gmail.com>
