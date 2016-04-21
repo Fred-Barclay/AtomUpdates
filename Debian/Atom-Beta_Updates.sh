@@ -45,7 +45,6 @@
 #		https://github.com/Fred-Barclay
 #		BugsAteFred@gmail.com
 #
-
 if [ $EUID != 0 ]; then
 	sudo "$0" "$@"
 	exit $?
