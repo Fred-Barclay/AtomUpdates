@@ -13,14 +13,14 @@ Atom Stable as well.
 
 #Supported Linux Distros:
 ###Debian
-Debian
-Ubuntu
-Linux Mint
-LMDE
+Debian  
+Ubuntu  
+Linux Mint  
+LMDE  
 
 ###Red Hat
-Fedora
-CentOS
+Fedora  
+CentOS  
 
 ###Others
 openSUSE
