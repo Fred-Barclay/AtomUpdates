@@ -22,9 +22,9 @@
 #   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 # Custom license terms:
-# 	You are hereby granted a perpetual, irrevocable license to copy, modify,
-# 	publish, release, and distribute this program as you see fit. However,
-# 	under no circumstances may you claim original authorship of this program;
+#	You are hereby granted a perpetual, irrevocable license to copy, modify,
+#	publish, release, and distribute this program as you see fit. However,
+#	under no circumstances may you claim original authorship of this program;
 # 	you must credit the original author(s). You may not remove the listing of
 # 	the original author(s) from the source code, though you may change the
 # 	licensing terms, provided that your terms do not permit the removal of the
