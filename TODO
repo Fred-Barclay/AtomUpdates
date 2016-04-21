@@ -1,0 +1,12 @@
+(Not in any particular order)
+
+1. Verify checksums before installing.
+
+2. Add an automatic-update script (runs when user logs into computer). 
+
+3. Add updater for Atom Stable (may collaborate).
+
+4. Consider a single script that detects the distro and downloads the proper
+   files. Very complex and greatly adds to script length!
+
+5. Consider writing in C rather than script. Not likely for a while.

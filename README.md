@@ -1,18 +1,35 @@
-# AtomUpdates
-
-### Currently only supports Debian and openSUSE, and distros based on them.  
-May add support for others later
-
+#AtomUpdates
 AtomUpdates hosts intelligent scripts for detecting your current version of
 Atom, checking for updates, and then downloading the proper update package if
 needed. The scripts are fully customisable but offer reasonable choices
 out-of-the-box.
 
-If your detected version of Atom is the same as the latest release, the script
+If the installed version of Atom is the same as the latest release, the script
 will automatically terminate. If you have an outdated version, the script, at
-your prompting, download and install the latest version.
+your prompting, downloads and install the latest version.
 
-# Licensing:
+Currently, only Atom Beta is updated. We will soon add a script for updating
+Atom Stable as well.
+
+#Supported Linux Distros:
+###Debian			###Red Hat			###Others
+Debian				Fedora				openSUSE
+Ubuntu				CentOS
+Linux Mint
+LMDE
+
+If you don't see your distro listed here, but it uses either dpkg/apt,
+rpm/yum/dnf/zypper, chances are it's supported too!  
+
+The precompiled Atom binaries are only for 64-bit distros. If you only have a
+32-bit machine, you should either compile the source code yourself or look for a
+**trusted** third-party precompiled binary. For example, there is a Ubuntu PPA
+that offers 32-bit Atom binaries.
+
+To request support for another distro, or to let us know that an unlisted distro
+works, please open an Issue or submit a pull request.
+
+#Licensing:
 The scripts hosted in this repository are provided under a dual-license model:    
 (a). GPL v2 or, (at your option) any later version.    
 (b). Custom, highly-permissive licensing terms.
