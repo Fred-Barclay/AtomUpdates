@@ -5,8 +5,8 @@ needed. The scripts are fully customisable but offer reasonable choices
 out-of-the-box.
 
 If the installed version of Atom is the same as the latest release, the script
-will automatically terminate. If you have an outdated version, the script, at
-your prompting, downloads and install the latest version.
+will automatically terminate. If you have an outdated version, the script will,
+at your prompting, downloads and install the latest version.
 
 Currently, only Atom Beta is updated. We will soon add a script for updating
 Atom Stable as well.
@@ -37,7 +37,7 @@ To request support for another distro, or to let us know that an unlisted distro
 works, please open an Issue or submit a pull request.
 
 #Credits
-Modified from a script written by Antonio Hernández Blas (nihilismus) for 
+Modified from a script written by Antonio Hernández Blas (nihilismus) for
 Atom Beta on openSUSE.
 https://gist.github.com/nihilismus/2d9a8e639b205369650c37c646ffcc5c
 

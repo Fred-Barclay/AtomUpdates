@@ -79,6 +79,7 @@ else
 		wget "${github_server}/${last_release}" -O atom-beta.x86_64.rpm
 		echo 'Download complete!'
 		zypper install atom-beta.x86_64.rpm
+		echo 'Installation Complete!'
 	fi
 	cd ..
 	rm -rf temp-atom-dir

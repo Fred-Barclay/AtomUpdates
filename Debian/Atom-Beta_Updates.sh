@@ -79,6 +79,7 @@ else
 		wget "${github_server}/${last_release}" -O atom-beta-amd64.deb
 		echo 'Download complete!'
 		dpkg -i atom-beta-amd64.deb
+		echo 'Installation Complete!'
 	fi
 	cd ..
 	rm -rf temp-atom-dir
