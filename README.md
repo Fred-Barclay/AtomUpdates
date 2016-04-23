@@ -36,6 +36,11 @@ that offers 32-bit Atom binaries.
 To request support for another distro, or to let us know that an unlisted distro
 works, please open an Issue or submit a pull request.
 
+#Credits
+Modified from a script written by Antonio Hernández Blas (nihilismus) for 
+Atom Beta on openSUSE.
+https://gist.github.com/nihilismus/2d9a8e639b205369650c37c646ffcc5c
+
 #Licensing:
 The scripts hosted in this repository are provided under a dual-license model:    
 (a). GPL v2 or, (at your option) any later version.    
