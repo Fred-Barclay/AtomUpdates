@@ -6,9 +6,9 @@ out-of-the-box.
 
 If the installed version of Atom is the same as the latest release, the script
 will automatically terminate. If you have an outdated version, the script will,
-at your prompting, downloads and install the latest version.
+at your prompting, download and install the latest version.
 
-Currently, only Atom Beta is updated. We will soon add a script for updating
+Currently, only Atom Beta is supported. We will soon add a script for updating
 Atom Stable as well.
 
 #Supported Linux Distros:
@@ -20,6 +20,7 @@ LMDE
 
 **Red Hat**  
 Fedora  
+Korora  
 CentOS  
 
 **Others**  
